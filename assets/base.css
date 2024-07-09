@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Northwest';
-  src: url('./NorthwestRegular.woff2') format('woff2'),
-      url('./NorthwestRegular.woff') format('woff');
+  font-family: "Northwest";
+  src: url("./NorthwestRegular.woff2") format("woff2"),
+      url("./NorthwestRegular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -272,7 +272,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: var(--font-heading-family);
+  font-family: 'Northwest' !important;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);

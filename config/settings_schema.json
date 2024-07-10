@@ -132,7 +132,7 @@
       {
         "type": "font_picker",
         "id": "type_body_font",
-        "default": "northwest",
+        "default": "Northwest",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
       },

@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Northwest';
-  src: url('./NorthwestRegular.woff2') format('woff2'),
-      url('./NorthwestRegular.woff') format('woff');
+  font-family: "Northwest";
+  src: url("./NorthwestRegular.woff2") format("woff2"),
+      url("./NorthwestRegular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

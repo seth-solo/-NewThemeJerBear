@@ -36,6 +36,15 @@
     {%- endif -%}
 
     {{ content_for_header }}
+    
+    <style>
+      {{settings. body_font | font_face}}
+
+      :root {
+        --bodyFont: {{ settings.body_font.family }};
+        --bodyFontWeight: {{ settings.body_font.weight }};
+      }
+    </style>
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
